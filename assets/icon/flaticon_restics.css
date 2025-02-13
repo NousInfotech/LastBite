@@ -196,6 +196,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-menu:before {
     content: "\f138";
+    color: white;
 }
 .flaticon-instagram:before {
     content: "\f139";

@@ -69,6 +69,7 @@ body {
   font-family: var(--font-primary);
   margin: auto;
   position: fixed;
+  background-color: #1b1b1b;
 }
 
 a,
@@ -167,6 +168,7 @@ button {
   padding-left: calc(var(--container-space-x) / 2);
   padding-right: calc(var(--container-space-x) / 2);
   margin: auto;
+  margin-top: 50px;
 }
 
 .ul-inner-container {
@@ -214,7 +216,7 @@ button {
   }
 }
 .logo {
-  max-width: clamp(130px, 11.56vw, 220px);
+  max-width: clamp(267px, 11.56vw, 220px);
 }
 
 .ul-bs-row {
@@ -394,7 +396,7 @@ button {
 .ul-section-title {
   font-weight: 700;
   font-size: clamp(25px, 2.1vw, 40px);
-  color: var(--ul-black);
+  color: var(--ul-c4);
   margin-bottom: clamp(5px, 0.42vw, 8px);
 }
 .ul-section-descr {
@@ -946,6 +948,7 @@ button {
   position: relative;
   top: 0;
   z-index: 99;
+  background-color: #1b1b1b;
 }
 .ul-header::before {
   position: absolute;
@@ -2216,6 +2219,7 @@ button {
   position: absolute;
   top: 100%;
   width: 100%;
+ 
 }
 .ul-header .header-bottom-bg-wrapper.sticky {
   position: fixed;
@@ -2525,7 +2529,7 @@ button {
   );
 }
 .ul-header-bottom::after {
-  background-color: var(--white);
+  background-color:  #1b1b1b;
   bottom: 4px;
 }
 .ul-header-bottom-wrapper {
@@ -2583,7 +2587,7 @@ button {
   }
 }
 .ul-header-nav a {
-  color: var(--black);
+  color: var(--white);
   font-size: clamp(13px, 0.84vw, 16px);
   font-weight: 500;
   text-transform: uppercase;
@@ -3181,8 +3185,8 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: var(--ul-c4);
-  opacity: 96%;
+  background: var(--ul-black);
+  opacity: 100%;
   z-index: -1;
 }
 .ul-foods-slider {
